@@ -13,7 +13,7 @@ body {
 
 /* regole header */
 header {
-    background-color: rgb(137, 209, 242);
+    background-color: #3160e0;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -38,7 +38,7 @@ ul {
 }
 
 ul li {
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 a {
@@ -46,7 +46,7 @@ a {
     color: white;
 }
 
-.white-button {
+.small-white-buttons {
     border-radius: 9999px;
     border: none;
     padding: 20%;
@@ -56,60 +56,122 @@ a {
 
 /* regole del blocco centrale */
 
+.jumbotron {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
 
 .container {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 30px;
+    height: 700px;
 }
 
-.last-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+#last-container {
     width: 100%;
-    padding: 30px;
+    height: 900px;
+    background-color: rgb(240, 231, 231);
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: #3160e0;
 }
 
 .bg-white {
     background-color: white;
 }
 
-.bg-gray {
-    background-color: gray;
+.bg-grey {
+    background-color: rgb(240, 231, 231);
 }
 
 .bg-black {
     background-color: black;
 }
 
-.purple-box {
+.jumbo {
     width: 50%;
-    background-color: purple;
-    height: 300px;
+    /* background-color: red; */
+    color: white;
+    height: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
 }
 
-.blue-box {
+h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.big-white-buttons {
+    border-radius: 9999px;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.big-black-buttons {
+    border-radius: 9999px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.big-blue-buttons {
+    border-radius: 9999px;
+    border: none;
+    background-color: #6289f7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.img-box {
     width: 40%;
-    background-color: blue;
-    height: 400px;
+    height: 350px;
+    margin-top: 150px;
 }
 
-.pink-box {
-    width: 30%;
-    background-color: pink;
-    height: 400px;
+.text-box {
+    width: 25%;
+    /* background-color: pink; */
+    height: 250px;
+    color: black;
+    margin-top: 150px;
+    margin-left: 80px;
 }
 
-.green-box {
+.text-img-box {
     width: 70%;
-    background-color: green;
-    height: 600px;
+    /* background-color: green; */
+    height: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    margin-top: -30px;
 }
 
 .main-column {
@@ -124,9 +186,9 @@ a {
     height: 500px;
 }
 
-.debug {
+/* .debug {
     border: 1px dashed black;
-}
+} */
 
 /* regole footer */
 footer {
