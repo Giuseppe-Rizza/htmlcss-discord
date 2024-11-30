@@ -7,30 +7,51 @@
 
 /* regole body */
 
-font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 /* regole header */
 header {
     background-color: rgb(137, 209, 242);
-    height: 50px;
+    height: 100px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 .topbar {
-    width: 70%;
-    background-color: orange;
-    height: 30px;
-}
-
-header div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 30%;
-    width: 5%;   
+    width: 80%;
+    /* background-color: orange; */
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+ul li {
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.white-button {
+    border-radius: 9999px;
+    border: none;
+    padding: 20%;
+    color: black;
+    background-color: white;
 }
 
 /* regole del blocco centrale */
